@@ -1,4 +1,4 @@
-exports.hanler = (event, context, callback) => {
+exports.handler = (event, context, callback) => {
     console.log('hello all')
     return callback(null, {
         statusCode: 200,
